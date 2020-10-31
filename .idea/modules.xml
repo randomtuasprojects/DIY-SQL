@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/do-it-yourself2.iml" filepath="$PROJECT_DIR$/.idea/do-it-yourself2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/do-it-yourself-sql.iml" filepath="$PROJECT_DIR$/.idea/do-it-yourself-sql.iml" />
     </modules>
   </component>
 </project>
