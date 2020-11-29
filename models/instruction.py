@@ -22,16 +22,16 @@ class Instruction(db.Model):
     user_id = db.Column(db.Integer(), db.ForeignKey("user.id"))
 
 
-    def data(self):
-        return {
-            'id': self.id,
-            'name': self.name,
-            'description': self.description,
-            'tools': self.tools,
-            'duration': self.duration,
-            'steps': self.steps,
-            'user_id': self.user_id
-        }
+#    def data(self):
+#        return {
+#            'id': self.id,
+#            'name': self.name,
+#            'description': self.description,
+#            'tools': self.tools,
+#            'duration': self.duration,
+#            'steps': self.steps,
+#            'user_id': self.user_id
+#        }
 
 
     @classmethod
